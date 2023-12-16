@@ -6,9 +6,9 @@ First, run the development server:
 
 ```bash
 npm npx create-next-app@latest ./
-# or
+# then
 npm i bcrypt mongodb mongoose next-auth
-# or
+# then
 npm run dev
 ```
 
