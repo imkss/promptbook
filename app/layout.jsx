@@ -26,6 +26,18 @@ const RootLayout = ({ children }) => {
             {children}
           </main>
         </Provider>
+        <footer>
+          <h5>
+            <b >
+              Designed & Maintained with{" "}
+              <span className="text-red-800">&#9825;</span> by{" "}
+              <a href="https://linktr.ee/i_m_k_s_s" target="_blank">
+                Sunny
+              </a>{" "}
+              &copy; 2024 All rights reserved
+            </b>
+          </h5>
+        </footer>
       </body>
     </html>
   );

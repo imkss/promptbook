@@ -128,7 +128,7 @@
 
 /* Form Component */
 .form_textarea {
-  @apply w-full flex rounded-lg h-[200px] mt-2 p-3 text-sm text-gray-500 outline-0;
+  @apply w-full flex rounded-lg h-[150px] mt-2 p-3 text-sm text-gray-500 outline-0;
 }
 
 .form_input {
@@ -167,4 +167,12 @@
 
 .flex-between {
   @apply flex justify-between items-center;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
