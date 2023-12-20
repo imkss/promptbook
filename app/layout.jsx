@@ -26,7 +26,7 @@ const RootLayout = ({ children }) => {
             {children}
           </main>
         </Provider>
-        {/* <footer>
+        <footer>
           <h5>
             <b >
               Designed & Maintained with{" "}
@@ -37,7 +37,7 @@ const RootLayout = ({ children }) => {
               &copy; 2024 All rights reserved
             </b>
           </h5>
-        </footer> */}
+        </footer>
       </body>
     </html>
   );
