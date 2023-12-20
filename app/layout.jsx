@@ -27,8 +27,8 @@ const RootLayout = ({ children }) => {
           </main>
         </Provider>
         <footer>
-          <h5>
-            <b >
+          <h5 className="ftr">
+            <b>
               Designed & Maintained with{" "}
               <span className="text-red-800">&#9825;</span> by{" "}
               <a href="https://linktr.ee/i_m_k_s_s" target="_blank">
